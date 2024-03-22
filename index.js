@@ -27,7 +27,9 @@ console.log(stockChecker);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
+let heartMonitor = heartRate < 100 ? "Boost needed!" : "Energy levels are high!";
 
+console.log(heartMonitor);
 
 
 
