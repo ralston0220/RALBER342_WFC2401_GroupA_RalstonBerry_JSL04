@@ -16,7 +16,9 @@ console.log(`The user prefers ${preferredType} variety.`);
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
+let stockChecker = cansLeft < 5 ? "Time to restock!" : "We're stocked!";
 
+console.log(stockChecker);
 
 
 
