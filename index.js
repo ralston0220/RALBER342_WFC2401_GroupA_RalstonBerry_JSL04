@@ -61,7 +61,6 @@ console.log(whatsTheTime);
 
 
 
-
 // In each of these challenges, the ternary operator is used to decide between two options based on a condition, 
 // demonstrating its utility for concise conditional logic. Remember that while ternaries can make the code more succinct, 
 // they should be used judiciously to maintain readability, especially for more complex conditions.
