@@ -55,7 +55,9 @@ let currentHour = 22;
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
 
+let whatsTheTime = currentHour >= 7 && currentHour < 24 ? "Unleash the beast!" : "Better stick to water.";
 
+console.log(whatsTheTime);
 
 
 
